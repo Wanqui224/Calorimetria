@@ -1,2 +1,71 @@
-# python entorno virtual
-.venv/ 
+# Python - Entorno virtual
+.venv/
+venv/
+ENV/
+env/
+
+# Python - Caché y compilación
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python - Entornos tipo virtualenv
+.env
+.venv
+env.bak/
+venv.bak/
+
+# IDE y Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Matplotlib
+*.png
+*.jpg
+*.jpeg
+
+# Archivos de prueba
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node modules (si se usa)
+node_modules/
+
+# Dependencias locales
+*.lock 
